@@ -1,0 +1,138 @@
+.logo {
+    width: 180px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin: 0 60x 60x 60px;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li {
+    margin-left: 25px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(255, 26, 118);
+    font-size: 25px;
+}
+
+.menu ul li a:hover {
+    color: rgb(238, 0, 255);
+    border-bottom: 1px solid rgb(141, 141, 7);
+}
+
+.iconos ul li a {
+    text-decoration: none;
+    margin-left: 25px;
+    
+}
+
+.portada img {
+    width: 100%;
+}
+
+.portada .texto-portada {
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    top: 40%;
+    left: 10%;
+}
+
+.texto-portada h1 {
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+
+.contenido {
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.contenido .card {
+    width: 300px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px #f81b69;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    overflow: hidden;
+}
+
+.contenido .card:hover {
+    transform: translate(-15px);
+    box-shadow: 0 15px 18px rgb(255, 27, 148)
+}
+
+.contenido .card img {
+    width: 300px;
+    height: 210px;
+
+}
+
+.contenido .card a {
+    background-color: rgb(255, 36, 123);
+    color: white;
+    border-radius: 3px;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 4px 4px;
+}
+
+.contenido .card p {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 300;
+    padding: 0 1em;
+}
+
+.contenido2 {
+    width: 100%;
+    max-width: 2200px;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.contenido2 .card2 {
+    width: 50%;
+    height: 220px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px #ff4898;
+    transition: all 0.25s;
+    overflow: hidden;
+    display: block;
+    margin-right: 90px; 
+
+}
+
+.contenido2 .card2:hover {
+    transform: translate(-15px);
+    box-shadow: 0 15px 18px #fd1f92
+}
+
+.contenido2 .card2 img {
+    width: 300px;
+    height: 220px;
+    float: right;
+    margin-top: -84px;
+
+}
